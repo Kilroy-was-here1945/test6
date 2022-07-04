@@ -25,6 +25,13 @@ ex("/js", "public/index.js");
 
 app.use(express.json())
 
+let Rollbar = require("rollbar")
+let rollbar = new Rollbar({
+    accessToken: '65hh07432gg05050y0h85g68g87b8765'/* I am not give you that im no noobe */,
+    captureUncaught: true,
+    captureUncaughtRejections: true
+})
+
 app.get('/api/robots', (req, res) => {
     try {
         res.status(200).send(bots)
