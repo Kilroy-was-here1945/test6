@@ -1,0 +1,23 @@
+test 1
+I was seeing some issues with the "see all bots" button. I tested it by clicking the button after running the file in local host and running the server file.
+Then all of the robots should showed up. After testing all of the robots showed up.
+
+
+test 2
+I plan to test the "draw" button and it should show 5 robots after pressed. after localhost:3000 is ran and draw button is clicked. 
+results
+the test was successful all bots showed up.
+
+test 3
+I plan to click the "draw" button and see if the robots show up. then click on two robots and see if the card changes to a card that has a "remove" button on it.
+then I will click the battle button and see if a winning message shows up marking up the number of wins on the browser or losing message marking up the number of
+loses on the browser.
+
+test 4
+does the styling work on the browser.
+
+extra notes 
+// botsArr was not defined but then I found there was no botsArr so I found the bot arr in data.js and changed botsArr in the shuffle function
+// I tested whether or not app get bots were working by console logging bots
+// I tried to look and see why winner was not increasing and if it was defined
+// I looked for some text and saw that the index.js had a wins button and looked for other spots it existed and found that there was a wins
